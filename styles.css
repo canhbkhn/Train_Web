@@ -252,5 +252,41 @@ footer{
     color: greenyellow;
 }
 
+.rows:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col1{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.col2{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.col3{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+[type = "man_type"]
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+[type = "price"]
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
 
 
